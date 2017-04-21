@@ -1,6 +1,6 @@
 require('sinatra')
 require('sinatra/reloader')
-require('./lib/prime_numbers')
+require('./lib/method')
 also_reload('lib/**/*.rb')
 
 get('/') do
